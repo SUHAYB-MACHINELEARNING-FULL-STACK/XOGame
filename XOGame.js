@@ -25,61 +25,6 @@ $("#d1 button").click(()=>{
                 $("#d2").slideDown(3000)
             
         let XO = 'X'
-    /*$("#d2 #child #XOGame #d3").mouseenter(()=>{
-        $("#d2 #child #XOGame div").text("").css("opacity","1")
-        $("#d2 #child #XOGame #d3").css({color:'darkcyan',backgroundColor:'#141d2b'}) 
-        $("#d2 #child #XOGame #d3").html(`<p>${XO}</p>`)
-    })
-        
-        $("#d2 #child #XOGame #d4").mouseenter(()=>{
-        $("#d2 #child #XOGame div").text("").css("opacity","1")
-        $("#d2 #child #XOGame #d4").css({color:'darkcyan',backgroundColor:'#141d2b'}) 
-        $("#d2 #child #XOGame #d4").html(`<p>${XO}</p>`)
-    })
-        
-        $("#d2 #child #XOGame #d5").mouseenter(()=>{
-        $("#d2 #child #XOGame div").text("").css("opacity","1")
-        $("#d2 #child #XOGame #d5").css({color:'darkcyan',backgroundColor:'#141d2b'}) 
-        $("#d2 #child #XOGame #d5").html(`<p>${XO}</p>`)
-    })
-        
-        $("#d2 #child #XOGame #d6").mouseenter(()=>{
-        $("#d2 #child #XOGame div").text("").css("opacity","1")
-        $("#d2 #child #XOGame #d6").css({color:'darkcyan',backgroundColor:'#141d2b'}) 
-        $("#d2 #child #XOGame #d6").html(`<p>${XO}</p>`)
-    })
-        
-        $("#d2 #child #XOGame #d7").mouseenter(()=>{
-        $("#d2 #child #XOGame div").text("").css("opacity","1")
-        $("#d2 #child #XOGame #d7").css({color:'darkcyan',backgroundColor:'#141d2b'}) 
-        $("#d2 #child #XOGame #d7").html(`<p>${XO}</p>`)
-    })
-        
-        $("#d2 #child #XOGame #d8").mouseenter(()=>{
-        $("#d2 #child #XOGame div").text("").css("opacity","1")
-        $("#d2 #child #XOGame #d8").css({color:'darkcyan',backgroundColor:'#141d2b'}) 
-        $("#d2 #child #XOGame #d8").html(`<p>${XO}</p>`)
-    })
-        
-        $("#d2 #child #XOGame #d9").mouseenter(()=>{
-        $("#d2 #child #XOGame div").text("").css("opacity","1")
-        $("#d2 #child #XOGame #d9").css({color:'darkcyan',backgroundColor:'#141d2b'}) 
-        $("#d2 #child #XOGame #d9").html(`<p>${XO}</p>`)
-    })
-                
-        $("#d2 #child #XOGame #d10").mouseenter(()=>{
-        $("#d2 #child #XOGame div").text("").css("opacity","1")
-        $("#d2 #child #XOGame #d10").css({color:'darkcyan',backgroundColor:'#141d2b'}) 
-        $("#d2 #child #XOGame #d10").html(`<p>${XO}</p>`)
-    })
-        
-        
-        $("#d2 #child #XOGame #d11").mouseenter(()=>{
-        $("#d2 #child #XOGame div").text("").css("opacity","1")
-        $("#d2 #child #XOGame #d11").css({color:'darkcyan',backgroundColor:'#141d2b'}) 
-        $("#d2 #child #XOGame #d11").html(`<p>${XO}</p>`)
-    })
-    */
         
         /* ............................................... */
         
