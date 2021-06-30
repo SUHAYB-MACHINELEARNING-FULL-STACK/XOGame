@@ -29,61 +29,13 @@ $("#d1 button").click(()=>{
         /* ............................................... */
         
         
-        
-        $("#d2 #child #XOGame #d3").click(()=>{ 
-            $("#d2 #child #XOGame #d3").css({color:'#e6b31e'})  
-            $("#d2 #child #XOGame #d3").html(`<p>${XO}</p>`) 
-            XO = (XO=="X"?"O":"X")
-        })
-        
-        $("#d2 #child #XOGame #d4").click(()=>{ 
-            $("#d2 #child #XOGame #d4").css({color:'#e6b31e'})  
-            $("#d2 #child #XOGame #d4").html(`<p>${XO}</p>`) 
-            XO = (XO=="X"?"O":"X")
-        })
-        
-        $("#d2 #child #XOGame #d5").click(()=>{ 
-            $("#d2 #child #XOGame #d5").css({color:'#e6b31e'})  
-            $("#d2 #child #XOGame #d5").html(`<p>${XO}</p>`) 
-            XO = (XO=="X"?"O":"X")
-        })
-        
-        $("#d2 #child #XOGame #d6").click(()=>{ 
-            $("#d2 #child #XOGame #d6").css({color:'#e6b31e'})  
-            $("#d2 #child #XOGame #d6").html(`<p>${XO}</p>`) 
-            XO = (XO=="X"?"O":"X")
-        })
-        
-        $("#d2 #child #XOGame #d7").click(()=>{ 
-            $("#d2 #child #XOGame #d7").css({color:'#e6b31e'})  
-            $("#d2 #child #XOGame #d7").html(`<p>${XO}</p>`) 
-            XO = (XO=="X"?"O":"X")
-        })
-        
-        $("#d2 #child #XOGame #d8").click(()=>{ 
-            $("#d2 #child #XOGame #d8").css({color:'#e6b31e'})  
-            $("#d2 #child #XOGame #d8").html(`<p>${XO}</p>`) 
-            XO = (XO=="X"?"O":"X")
-        })
-        
-        $("#d2 #child #XOGame #d9").click(()=>{ 
-            $("#d2 #child #XOGame #d9").css({color:'#e6b31e'})  
-            $("#d2 #child #XOGame #d9").html(`<p>${XO}</p>`) 
-            XO = (XO=="X"?"O":"X")
-        })
-        
-        $("#d2 #child #XOGame #d10").click(()=>{ 
-            $("#d2 #child #XOGame #d10").css({color:'#e6b31e'})  
-            $("#d2 #child #XOGame #d10").html(`<p>${XO}</p>`) 
-            XO = (XO=="X"?"O":"X")
-        })
-        
-        $("#d2 #child #XOGame #d11").click(()=>{ 
-            $("#d2 #child #XOGame #d11").css({color:'#e6b31e'})  
-            $("#d2 #child #XOGame #d11").html(`<p>${XO}</p>`) 
-            XO = (XO=="X"?"O":"X")
-        })
-        
+        for(let i=3; i<=11; i++) {
+            $(`#d2 #child #XOGame #d${i}`).click(()=>{ 
+                $(`#d2 #child #XOGame #d${i}`).css({color:'#e6b31e'})  
+                $(`#d2 #child #XOGame #d${i}`).html(`<p>${XO}</p>`) 
+                XO = (XO=="X"?"O":"X")
+            })
+        }
         
     
     }) 
