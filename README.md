@@ -15,4 +15,6 @@
   
 </ul>
 
+<hr>
+
 <p>This project is under development</p>
