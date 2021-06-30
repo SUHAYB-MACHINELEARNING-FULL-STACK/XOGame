@@ -2,7 +2,7 @@
 
 <hr>
 
-<h2<Languages used in This Project (XOGAME)</h2>
+<h2>Languages used in This Project (XOGAME)</h2>
 
 <ul>
   
