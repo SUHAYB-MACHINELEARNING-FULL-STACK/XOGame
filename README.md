@@ -1,7 +1,8 @@
 <div align="center">
+  
 <h1>XOGAME 😍</h1>
+  
 </div>
-<hr>
 
 <h2>Languages used in This Project (XOGAME)</h2>
 
