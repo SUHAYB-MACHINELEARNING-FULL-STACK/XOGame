@@ -1,0 +1,96 @@
+body {
+    font-family:sans-serif;
+  background-image: linear-gradient(to left, red,orange);
+    color:darkcyan;
+    display:flex;
+    justify-content: center;
+}
+
+input {
+    height:100px;
+    
+    width:300px;
+    font-size:30px;
+    background-color:black;
+    color:darkcyan;
+    
+    text-align:center;
+    outline: inherit;
+    border:4px solid aqua;
+}
+
+#d1,#d2 {
+    position:relative;
+    top:250px;
+    background-color:#141d2b;
+    border-radius:20px;
+    padding:50px;
+    width:400px;
+}
+
+#d2 {
+    display:none;
+}
+
+#d1 button {
+    color:White;
+    background-color:#e6b31e;
+    border-radius:10px;
+    border:1px solid #e6b31e;
+    outline: inherit;
+    cursor:pointer;
+    height:75px;
+    width:300px;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:-10px;
+}
+
+#XOGameH4 {
+    height:50px;
+    
+    width:200px;
+    font-size:30px;
+    background-color:black;
+    color:darkcyan;
+    
+    text-align:center;
+    outline: inherit;
+    border:4px solid aqua;
+        margin-top:40px;
+
+}
+
+h4 {
+    width:200px;
+    font-size:30px;
+    color:darkcyan;
+    
+    text-align:center;
+    outline: inherit;
+    border:4px solid aqua;
+}
+
+#d2 h1 {
+    
+    width:400px;
+    font-size:30px;
+    color:darkcyan;
+    outline: inherit;
+    border:10px solid #e6b31e;
+    
+}
+
+/*#d2 #child #XOGame div:hover {
+    color:black;
+    content:'X';
+    opacity:0.5;
+}*/
+#d2 #child #XOGame div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#d2 #child #XOGame div p {
+    font-size:75px;
+}
